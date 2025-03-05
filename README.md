@@ -1,23 +1,13 @@
-# Third Person Platformer
+# Third Person Platformer With UI Improvements
+A simple third person character controller in Unity with UI improvements
 
-A simple third person character controller in Unity
+## Demo Video Showcasing UI Improvements (and basic gameplay)
 
-## Demo
+[Click Here To Watch My Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
 
-## Cloning & Setting Up the Project
 
-1. Ensure you have
-	- **Unity Hub** (Download: [Unity Hub](https://unity.com/download))
-	- **Unity Version** (6000.0.31f1)
-	- **Git** ([Download Git](https://git-scm.com/)) or **Github Desktop** ([Download Github Desktop](https://desktop.github.com/download/))
-2. Clone the project via [Git](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli) or [Github Desktop](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=desktop)
-3. Open **Unity Hub**
-4. Click **"Open"** and select the cloned project folder (with Assets, ProjectSettings, Packages)
-
-## Features
-
+# Features
 - Third Person Camera
 - Move around with WASD
 - Jump, Double Jump with Space
@@ -25,8 +15,34 @@ https://github.com/user-attachments/assets/91485280-b86b-4c82-ac11-2a5107730e94
 - Collect Coins by moving over them
 - Score Counter on the top right
 
-## Credits
+# UI Improvements
+This project extends the base third-person controller with the following UI enhancements:
 
+### Enhanced Coin Counter
+- Redesigned score panel with separated label and value
+- Implemented animated coin counter with sliding effect
+- Used DoTween animation library for smooth transitions
+- Added masking for clean visual effect during transitions
+
+### Settings Menu
+- Created a toggleable settings menu (press P to open/close)
+- Implemented game pause functionality when menu is open
+- Added Play button to resume gameplay
+- Added Exit button to quit the game
+- Included player speed adjustment slider (5-15 speed range)
+- Added proper cursor handling during menu navigation
+
+### Tutorial Board
+- Designed an in-world UI tutorial board using World Space canvas
+- Created physical board using 3D objects
+- Added visual instruction elements showing controls:
+ - WASD for movement
+ - Space for jumping
+ - Shift for dashing
+ - Mouse for camera view
+- Positioned in the game world for player reference
+
+## Credits
 Uses coin model from [Quaternius](https://quaternius.com/) (Sourced from [Poly Pizza](https://poly.pizza/m/QHZtj94fvh))
 
 
