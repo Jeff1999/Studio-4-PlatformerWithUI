@@ -3,7 +3,7 @@ A simple third person character controller in Unity with UI improvements
 
 ## Demo Video Showcasing UI Improvements (and basic gameplay)
 
-[Click Here To Watch My Demo Video](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[Click Here To Watch My Demo Video](https://youtu.be/N1wZ2LQis6Y)
 
 
 
